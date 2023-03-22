@@ -50,6 +50,8 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 10px 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
     box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
     z-index: 999;
     position: sticky;
@@ -70,7 +72,7 @@ body{
 }
 
 #navbar li a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 17px;
     transition: 0.4s ease;
@@ -139,5 +141,185 @@ body{
 
 #feature .fe-box:hover{
     box-shadow: 10px 10px 45px rgba(0, 0, 0, 0.8);
+}
 
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 10px;
+    position: relative;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+#product1 .pro img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#product1 .pro .des i{
+    color: yellow;
+    font-size: 12px;
+}
+
+#product1 .pro .des h4{
+    padding-top: 7px;font-size: 15px;
+    font-weight: 600;
+    color: red;
+}
+
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 10px;
+    right:10px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+#product1 .pro .cart:hover{
+    background-color: black;
+    color: orangered;
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(./images/bg1.jpg);
+    width: 700px;
+    height: 50vh;
+    background-size: cover;
+    background-position: right;
+    box-shadow: 10px 20px 34px rgba(0,0,0,0.4);
+}
+
+#sm-banner .banner-box2{
+    background-image: url(./images/bg2.jpg);
+    width: 400px;
+}
+
+.box2{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+    transition: 0.2s ease;
+}
+
+#sm-banner h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.box1{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid white;
+    transition: 0.2s ease;
+}
+
+.box1:hover, .box2:hover{
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+}
+
+#banner3{
+    display: flex;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(./images/bg4.jpg);
+    width: 400px;
+    height: 50vh;
+    background-size: cover;
+    background-position: top;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 2rem;
+}
+
+#banner3 .banner-box-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(./images/bg5.jpg);
+    width: 200px;
+    height: 50vh;
+    background-size: cover;
+    background-position: top;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 2rem;
+}
+
+#banner3 .banner-box-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(./images/bg6.jpg);
+    width: 200px;
+    height: 50vh;
+    background-size: cover;
+    background-position: top;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 2rem;
+}
+
+#banner3 .banner-box-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(./images/bg7.jpg);
+    width: 350px;
+    height: 50vh;
+    background-size: cover;
+    background-position: top;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 2rem;
 }
